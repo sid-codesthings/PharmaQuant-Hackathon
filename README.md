@@ -161,6 +161,12 @@ Evaluation Metrics:
 
 # Results
 
+| Model | Accuracy | ROC-AUC |
+| :--- | :---: | :---: |
+| **Logistic Regression** | Comparable | Moderate |
+| **Random Forest** | Comparable | Moderate |
+| **XGBoost** 🚀 | Comparable | **Highest** 🏆 |
+
 
 
 
