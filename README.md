@@ -230,11 +230,34 @@ Based on modeling and clustering, we suggest the following recommendations to ho
 
 # Repository Structure
 
+## Repository Structure
 
+```text
+├── Data Visualization/
+│   ├── Correlation Heatmap (correlation between readmission and key factors).png
+│   ├── Re-admission counts influenced by age.png
+│   ├── Re-admission counts influenced by gender, race.png
+│   ├── Re-admission counts influenced by weights.png
+│   └── Top 5 medications by readmission rate.png
+├── Dataset/
+│   └── Q1_material_diabetic_data_final.csv
+├── PPT/
+│   └── PPT_Hackathon.pptx
+├── Results/
+│   ├── model summary.png
+│   ├── feature importances_XGBoost.png
+│   ├── cluster summary.png
+│   └── cluster summary (2).png
+├── jupyter_notebook_file/
+│   └── Analysis.ipynb
+└── README.md
 
-
-
-
+# Business Impact
+This model can help hospitals:<br>
+* Reduce financial penalties under HRRP
+* Improve patient care quality
+* Optimize hospital resource utilization
+* Move toward data-driven healthcare decision-making
 
 
 
