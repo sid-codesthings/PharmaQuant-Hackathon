@@ -46,7 +46,7 @@ The dataset used is the U.S. Diabetes 130-Hospitals Dataset provided by Pharmaqu
 # Objective
 To determine the key features that best predict whether a diabetic patient will be readmitted within 30 days or not.
 
-This is formulated as a binary classification problem:
+This is formulated as a binary classification problem - 
 **0 → No readmission within 30 days**
 **1 → Readmission within 30 days**
 
