@@ -230,8 +230,6 @@ Based on modeling and clustering, we suggest the following recommendations to ho
 
 # Repository Structure
 
-## Repository Structure
-
 ```text
 ├── Data Visualization/
 │   ├── Correlation Heatmap (correlation between readmission and key factors).png
@@ -251,7 +249,7 @@ Based on modeling and clustering, we suggest the following recommendations to ho
 ├── jupyter_notebook_file/
 │   └── Analysis.ipynb
 └── README.md
-
+```
 # Business Impact
 This model can help hospitals:<br>
 * Reduce financial penalties under HRRP
