@@ -68,10 +68,46 @@ The objective was to uncover patterns influencing 30-day hospital readmission am
     * number_inpatient (~0.04)
  
 **Interpretations:** <br>
-* No single feature linearly explains readmission.<br>
+* No single feature linearly explains the readmission.<br>
 * Readmission is likely driven by complex, non-linear interactions.
+
+This pointed to the fact that we should experiment more by using ensemble models like Random Forest and XGBoost aside Logistic Regression.
  
-      
+**Observations on Readmission Count by Age:**<br>
+* Readmission counts increase significantly from age 45 onwards.
+* Peak readmission appears in the 65–75 age group.
+* Very low readmission among younger groups (5–35).
+* Slight decline in extreme elderly (85+), likely due to smaller sample size.
+
+**Interpretation:**
+
+* Older diabetic patients have higher readmission vulnerability.
+* Age acts as a risk amplifier, likely interacting with:
+   * Number of medications
+   * Inpatient history
+   * Comorbidities
+ 
+Age seems an important key variable for prediction.
+
+**Observations based on Race and Gender:**<br>
+* Caucasian patients show the highest absolute readmission count (due to larger representation in dataset).
+* African American patients also show substantial readmission counts.
+* Other racial groups have lower absolute counts.
+* Readmission counts are relatively balanced across male and female.
+* Slight variation exists but gender alone is not a dominant predictor.
+
+**Interpretation:**
+
+Demographic variables alone are not absolute or strong predictors. But some targeted care coordination workflows can be improved based on socio-economic factors of certain races. These variables are useful when combined with clinical features.
+
+**Observations based on Readmission by Weight:**
+
+* Highest readmission counts observed in:
+   * 75–100 lbs range
+   * 50–75 lbs range
+* Extremely high weight ranges show lower counts (likely fewer observations).
+* Weight distribution was skewed with significant missing values.
+
 
 
 
