@@ -142,7 +142,7 @@ The following columns were removed due to irrelevance or excessive missing value
 * max_glu_serum
 * A1Cresult
 
-**Handling Missing Values**
+**Handling Missing Values:**
 
 The weight column contained significant missing values but was important for analysis. Instead of using KNN (not ideal due to high dimensionality), we clustered patients based on similar demographic features. Imputed missing weight values using the median weight of the respective cluster. This preserved distribution characteristics while avoiding overfitting.
 
@@ -158,6 +158,10 @@ Evaluation Metrics:
 * Accuracy
 * ROC-AUC Score
 * Confusion Matrix
+
+# Results
+
+
 
 
 
