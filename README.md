@@ -21,27 +21,27 @@ This project builds predictive models to identify high-risk diabetic patients li
 The dataset used is the U.S. Diabetes 130-Hospitals Dataset provided by Pharmaquant Pvt. Ltd. It contains over 100,000 hospital encounters of diabetic patients and 47 features.
 
 **Clinical Features**
-* **num_lab_procedures
-* **num_procedures
-* **num_medications
-* **number_outpatient
-* **number_emergency
-* **number_inpatient
-* **number_diagnoses
+* num_lab_procedures
+* num_procedures
+* num_medications
+* number_outpatient
+* number_emergency
+* number_inpatient
+* number_diagnoses
 
 **Treatment Related Features**
-* **admission_type_id
-* **discharge_disposition_id
-* **admission_source_id
-* **time_in_hospital
-* **change
-* **diabetesMed 24 medication-related features (metformin to metformin.pioglitazone)
+* admission_type_id
+* discharge_disposition_id
+* admission_source_id
+* time_in_hospital
+* change
+* diabetesMed 24 medication-related features (metformin to metformin.pioglitazone)
 
 **Demographic Features**
-* **race
-* **gender
-* **age
-* **weight
+* race
+* gender
+* age
+* weight
 
 # Objective
 
