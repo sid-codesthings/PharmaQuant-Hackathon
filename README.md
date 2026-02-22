@@ -174,6 +174,7 @@ XGBoost Performed Best beacuse it: <br>
 * Robust against overfitting
 
 **Key Predictors of Readmission (according to the feature importances given by XGBoost)**<br>
+
 **Important features included:**<br>
 * time_in_hospital
 * number_inpatient
