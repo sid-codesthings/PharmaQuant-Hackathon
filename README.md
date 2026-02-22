@@ -167,7 +167,22 @@ Evaluation Metrics:
 | **Random Forest** | Comparable | Moderate |
 | **XGBoost** 🚀 | Comparable | **Highest** 🏆 |
 
+XGBoost Performed Best beacuse it: <br>
+* Captures non-linear relationships
+* Handles high-dimensional data well
+* Uses L1 & L2 regularization
+* Robust against overfitting
 
+**Key Predictors of Readmission (according to the feature importances given by XGBoost)**<br>
+**Important features included:**<br>
+* time_in_hospital
+* number_inpatient
+* num_medications
+* discharge_disposition_id
+* number_emergency
+* change
+* diabetesMed
+These variables significantly influenced readmission probability.
 
 
 
