@@ -186,6 +186,50 @@ XGBoost Performed Best beacuse it: <br>
 
 These variables significantly influenced readmission probability.
 
+# Patient Segmentation (Clustering)
+
+We segmented diabetic patients into clusters based on:
+
+* Age
+* Gender
+* Race
+* Time in hospital
+* Lab procedures
+* Medications
+* Inpatient/outpatient visits
+* Emergency visits
+* Medication changes
+
+**Purpose behind segmentation:**
+
+* Identify high-risk subgroups
+* Personalize post-discharge strategies
+* Improve resource allocation
+
+# Actionable Insights for Hospitals
+
+Based on modeling and clustering, we suggest the following recommendations to hospital authorities:
+* Implement targeted post-discharge follow-ups
+* Improve discharge planning for high-risk groups
+* Strengthen outpatient & telehealth services
+* Monitor medication adherence
+* Improve care coordination
+* Educate patients on diabetes self-management
+* Optimize ER triage systems
+
+# Tech Stack
+
+* Python
+* Pandas
+* NumPy
+* Scikit-learn
+* XGBoost
+* Matplotlib
+* Seaborn
+* Power BI
+
+# Repository Structure
+
 
 
 
