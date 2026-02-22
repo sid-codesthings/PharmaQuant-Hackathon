@@ -44,12 +44,10 @@ The dataset used is the U.S. Diabetes 130-Hospitals Dataset provided by Pharmaqu
 * weight
 
 # Objective
-To determine the key features that best predict whether a diabetic patient will be readmitted within 30 days or not.
+To determine the key features that best predict whether a diabetic patient will be readmitted within 30 days or not.<br>
+This is formulated as a binary classification problem:<br>
 
-This is formulated as a binary classification problem:
-
-**0 → No readmission within 30 days** 
-
+**0 → No readmission within 30 days** <br>
 **1 → Readmission within 30 days**
 
 # EDA
@@ -70,8 +68,8 @@ The objective was to uncover patterns influencing 30-day hospital readmission am
     * number_inpatient (~0.04)
  
 **Interpretations:** <br>
-No single feature linearly explains readmission.<br>
-Readmission is likely driven by complex, non-linear interactions.
+* No single feature linearly explains readmission.<br>
+* Readmission is likely driven by complex, non-linear interactions.
  
       
 
