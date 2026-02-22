@@ -69,6 +69,11 @@ The objective was to uncover patterns influencing 30-day hospital readmission am
     * num_medications (~0.037)
     * number_inpatient (~0.04)
  
+**Interpretations:**
+
+No single feature linearly explains readmission.
+Readmission is likely driven by complex, non-linear interactions.
+ 
       
 
 
