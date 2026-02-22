@@ -131,6 +131,33 @@ Demographic variables alone are not absolute or strong predictors. But some targ
    * Treatment instability
 * Medication change is a clinically meaningful predictor.
 
+# Data Cleaning & Pre-processing
+
+The following columns were removed due to irrelevance or excessive missing values:
+
+* encounter_id
+* patient_nbr
+* payer_code
+* medical_specialty
+* max_glu_serum
+* A1Cresult
+
+**Handling Missing Values**
+
+The weight column contained significant missing values but was important for analysis. Instead of using KNN (not ideal due to high dimensionality), we clustered patients based on similar demographic features. Imputed missing weight values using the median weight of the respective cluster. This preserved distribution characteristics while avoiding overfitting.
+
+# Models Implemented
+We trained and evaluated:
+
+* Logistic Regression
+* Random Forest
+* XGBoost
+
+Evaluation Metrics:
+
+* Accuracy
+* ROC-AUC Score
+* Confusion Matrix
 
 
 
