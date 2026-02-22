@@ -181,7 +181,7 @@ XGBoost Performed Best beacuse it: <br>
 * discharge_disposition_id
 * number_emergency
 * change
-* diabetesMed
+* diabetesMed<br>
 These variables significantly influenced readmission probability.
 
 
