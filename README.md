@@ -108,7 +108,28 @@ Demographic variables alone are not absolute or strong predictors. But some targ
 * Extremely high weight ranges show lower counts (likely fewer observations).
 * Weight distribution was skewed with significant missing values.
 
+**Interpretation:**
 
+* Weight alone does not strongly determine readmission. It likely interacts with:
+* Diabetes severity
+* Medication count
+* Hospital stay duration
+* Missing values were handled via cluster-based median imputation, preserving distribution characteristics.
+
+**Observations on Top 5 Medications by Readmission Rate:**
+
+* Repaglinide (Up) → Highest readmission proportion (~54%)
+* Glyburide (Up) → Second highest (~27%)
+* Insulin variations contribute smaller proportions
+* Medication adjustments (Up/Down/Steady) appear influential
+
+**Interpretation:**
+
+* Medication escalation (“Up”) is strongly associated with readmission. This may indicate:
+   * Poor glycemic control
+   * Worsening condition
+   * Treatment instability
+* Medication change is a clinically meaningful predictor.
 
 
 
