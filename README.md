@@ -44,5 +44,56 @@ The dataset used is the U.S. Diabetes 130-Hospitals Dataset provided by Pharmaqu
 * weight
 
 # Objective
+To determine the key features that best predict whether a diabetic patient will be readmitted within 30 days or not.
+
+This is formulated as a binary classification problem:
+**0 → No readmission within 30 days**
+**1 → Readmission within 30 days**
+
+# EDA
+Exploratory Data Analysis was conducted using:
+**Python (Pandas, Matplotlib, Seaborn) for statistical exploration.**
+**Power BI for interactive dashboard development and demographic segmentation.**
+
+The objective was to uncover patterns influencing 30-day hospital readmission among diabetic patients and identify high-risk segments before model building.
+
+**Key Findings from Correlation Heatmap:**
+* time_in_hospital and num_medications show a strong positive correlation (~0.6)
+* num_lab_procedures moderately correlates with num_medications (~0.34)
+* num_lab_procedures has a weak negative correlation with number_inpatient (-0.17)
+* Readmission itself shows very weak linear correlation with individual variables:
+    * time_in_hospital (~0.048)
+    * num_lab_procedures (~0.052)
+    * num_medications (~0.037)
+    * number_inpatient (~0.04)
+ 
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
